@@ -1,7 +1,8 @@
 password= 'open@'
 n:int = 1
+      print('Please enter password')
 while n <4:
-    print('Please enter password')
+
     x=input()
     if x == password:
        print('You may enter')
